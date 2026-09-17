@@ -1,17 +1,18 @@
  *{
             margin: 0;
             padding: 0;
+             font-family: "Poppins", sans-serif;
         }
         .header{
             background-color: #0F172A;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            height: 40px;
+            height: 70px;
             color: #E5E6EB;
         }
         #logo{
-            height: 30px;
+            height: 60px;
         }
         .nav-link{
             display: flex;
@@ -24,7 +25,6 @@
         .nav-link a{
             text-decoration: none;
             color: #E5E6EB;
-            font-family: Inter, "Segoe UI", sans-serif;
             font-weight: 500;
              padding: 5px 10px;
             border-radius: 10px;
@@ -114,6 +114,77 @@
                 gap: 20px;
             }
         }
+
+/* Privacy Hero */
+
+.privacy-hero {
+    background-color: #eaf6ff;
+    text-align: center;
+    padding: 70px 8%;
+    border-bottom: 1px solid #d5eaf8;
+}
+
+.privacy-hero h1 {
+    color: #101a38;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.privacy-hero p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Privacy Content */
+
+.privacy-content {
+    width: 75%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #dceaf3;
+}
+
+.privacy-content h2 {
+    color: #101a38;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    border-left: 4px solid #1769d1;
+}
+
+.privacy-content h2:first-child {
+    margin-top: 0;
+}
+
+.privacy-content p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+/* Contact Button */
+
+.privacy-content button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1769d1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.privacy-content button:hover {
+    background-color: #123f9c;
+}
 
 
         

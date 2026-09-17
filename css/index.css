@@ -1,7 +1,7 @@
  *{
             margin: 0;
             padding: 0;
-            font-family: Arial, "Segoe UI", sans-serif;
+             font-family: "Poppins", sans-serif;
         }
         .header{
             background-color: #0F172A;
@@ -23,7 +23,6 @@
         .nav-link a{
             text-decoration: none;
             color: #E5E6EB;
-            font-family: Inter, "Segoe UI", sans-serif;
             font-weight: 500;
              padding: 5px 10px;
             border-radius: 10px;
@@ -148,7 +147,6 @@
             color: #101936;
             font-size: 40px;
             margin-bottom: 18px;
-            font-family: Arial, sans-serif;
         }
         .hero-box h1 span {
             color: #1264DF;

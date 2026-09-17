@@ -1,17 +1,18 @@
  *{
             margin: 0;
             padding: 0;
+             font-family: "Poppins", sans-serif;
         }
         .header{
             background-color: #0F172A;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            height: 40px;
+            height: 70px;
             color: #E5E6EB;
         }
         #logo{
-            height: 30px;
+            height: 60px;
         }
         .nav-link{
             display: flex;
@@ -24,7 +25,6 @@
         .nav-link a{
             text-decoration: none;
             color: #E5E6EB;
-            font-family: Inter, "Segoe UI", sans-serif;
             font-weight: 500;
              padding: 5px 10px;
             border-radius: 10px;
@@ -114,3 +114,72 @@
                 gap: 20px;
             }
         }
+
+        /* Terms Hero */
+
+.terms-hero {
+    background-color: #eaf6ff;
+    text-align: center;
+    padding: 60px 8%;
+}
+
+.terms-hero h1 {
+    color: rgb(14, 12, 12);
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.terms-hero p {
+    color: #121314;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Terms Content */
+
+.terms-content {
+    background-color: white;
+    padding: 60px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+
+/* Terms Cards */
+
+.terms-card {
+    background-color: #eaf6ff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #d5eaf8;
+}
+
+.terms-card h2 {
+    color: #101a38;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.terms-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* Contact Button */
+
+.terms-card button {
+    margin-top: 15px;
+    padding: 11px 25px;
+    background-color: #1769d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.terms-card button:hover {
+    background-color: #123f9c;
+}
